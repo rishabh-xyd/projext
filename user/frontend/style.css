@@ -1,0 +1,99 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sedan+SC&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(33, 33, 120);
+}
+.hidden{
+    display: none;
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+    height: 8vh;
+    background-color:rgb(13, 13, 81);
+    padding:  0 2%;
+    border-bottom: 2px solid rgba(254, 72, 72, 0.677);
+}
+.left-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+}
+.right-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+   
+}
+.logo{
+    height: inherit;
+    padding: 0.5rem;
+}
+.logo img{
+    border-radius: 50%;
+    height: 100%;
+}
+.login-status *{
+    padding: 0.5rem;
+}
+.login-status{
+    display: flex;
+    color:rgba(254, 72, 72, 0.818);
+}
+.cart{
+    color: rgba(254, 72, 72, 0.818);   
+     
+}
+
+.search-form{
+    display: flex;
+    
+}
+
+input[type="search"]{
+        padding: 5px;
+        border: none;
+        border-bottom: 1px solid #aaa;
+        background: transparent;
+        outline: none;
+        /* height: 30px; */
+        color: #fff;
+        width: 250px;
+        text-transform: capitalize;
+        font-size: 16px;
+        font-weight: 500;
+        transition: 0.5s;
+
+    }
+    input[type="search"]:focus{
+        width: 400px;
+        border-color: rgba(254, 72, 72, 0.818);
+    }
+    
+    input[type="submit"]{
+        background-color: rgba(254, 72, 72, 0.818);
+    height: 30px;
+    padding: 0 25px;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    margin: 0 10px;
+    }
+
+    .navigation{
+        background-color:rgba(13, 13, 81, 0.43);
+        height: 6vh;
+    }
